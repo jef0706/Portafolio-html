@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Jefte Gómez</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 30px;
+      background: white;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Jefte Gómez</h1>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre Mí</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#galeria">Galería</a>
+    <a href="#multimedia">Multimedia</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<!-- ================= INICIO ================= -->
+<section id="inicio">
+  <h2>Bienvenido</h2>
+  <p>Soy técnico en telecomunicaciones con experiencia en redes y desarrollo web.</p>
+</section>
+
+<!-- ================= SOBRE MI ================= -->
+<section id="sobre">
+  <h2>Sobre Mí</h2>
+  <img src="imagenes/jefte.jpg" width="200">
+  <p>7 años de experiencia en telecomunicaciones, instalación de redes y soporte técnico.</p>
+
+  <h3>Habilidades</h3>
+  <ul>
+    <li>Redes</li>
+    <li>Electricidad</li>
+    <li>HTML, CSS, JS</li>
+  </ul>
+</section>
+
+<!-- ================= EXPERIENCIA ================= -->
+<section id="experiencia">
+  <h2>Experiencia</h2>
+
+  <table>
+    <tr>
+      <th>Empresa</th>
+      <th>Puesto</th>
+      <th>Periodo</th>
+    </tr>
+    <tr>
+      <td>Telecomunicaciones</td>
+      <td>Técnico</td>
+      <td>2021 - Actualidad</td>
+    </tr>
+    <tr>
+      <td>Electricidad</td>
+      <td>Electricista</td>
+      <td>2016 - 2020</td>
+    </tr>
+  </table>
+</section>
+
+<!-- ================= PROYECTOS ================= -->
+<section id="proyectos">
+  <h2>Proyectos</h2>
+
+  <img src="imagenes/router.jpeg">
+  <p>Instalación de router</p>
+
+  <img src="imagenes/mantenimiento.jpeg">
+  <p>Mantenimiento de red</p>
+
+  <img src="imagenes/nodooptico.jpeg">
+  <p>Instalación de nodo óptico</p>
+</section>
+
+<!-- ================= GALERIA ================= -->
+<section id="galeria">
+  <h2>Galería</h2>
+
+  <img src="imagenes/tigo.jpeg">
+  <img src="imagenes/capacitaciondealtura.jpeg">
+  <img src="imagenes/paisaje.jpeg">
+</section>
+
+<!-- ================= MULTIMEDIA ================= -->
+<section id="multimedia">
+  <h2>Audio</h2>
+
+  <audio controls>
+    <source src="audio/imposible.mp3" type="audio/mpeg">
+  </audio>
+
+  <h2>Video</h2>
+
+  <video controls width="400">
+    <source src="video/presentacion.mp4" type="video/mp4">
+  </video>
+
+  <h2>YouTube</h2>
+
+  <iframe width="400" height="250"
+    src="https://www.youtube.com/embed/SSqgaFE9igo"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section id="contacto">
+  <h2>Contacto</h2>
+
+  <form>
+    <input type="text" placeholder="Nombre" required><br><br>
+    <input type="email" placeholder="Correo" required><br><br>
+    <textarea placeholder="Mensaje"></textarea><br><br>
+    <button>Enviar</button>
+  </form>
+
+  <p>Email: alexqndergomez@gmail.com</p>
+  <p>Tel: +502 33124292</p>
+
+  <iframe 
+    src="https://www.google.com/maps?q=Guatemala&output=embed"
+    width="100%" height="300">
+  </iframe>
+</section>
+
+<footer>
+  <p>© 2026 Jefte Gómez</p>
+</footer>
+
+</body>
+</html>
